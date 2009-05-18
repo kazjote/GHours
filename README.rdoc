@@ -1,26 +1,36 @@
 = ghours
 
-* FIX URL
+Simple ruby application which enables you to count hours in google calendar
+events this month and week. (http://github.com/kazjote/GHours/tree/master)
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Simple ruby application which enables you to count hours in google calendar
+events this month and week.
 
-== FEATURES/PROBLEMS:
-
-* FIX (list of features or problems)
+It sums all hours spent by events.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+USAGE:
+$ ghours Robota my_calendar
+
+after password prompt it prints following output:
+
+In this week : 4.0
+        month: 28.0
+
+That's all... It is really simple ;)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* activesupport (>=2.0.2)
+* highline (>=1.4.0)
+* googlecalendar (>=1.1.0)
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+$ sudo gem install ghours
 
 == LICENSE:
 
