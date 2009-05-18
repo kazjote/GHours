@@ -10,6 +10,9 @@ events this month and week.
 
 It sums all hours spent by events.
 
+It stores your email used to sign in to google in $HOME/.ghours. If you want
+to change this email simply delete this file.
+
 == SYNOPSIS:
 
 USAGE:
